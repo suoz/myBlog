@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<% if (env === "production") { %>
+        <link rel="stylesheet" href="./page/index.scss">
+    <% } else { %>
+    	<script src="../../public/lib/vendor.js"></script>
+    <% } %>
+    <script src="../../public/lib/jquery.min.js"></script>
+</head>
+<body>
