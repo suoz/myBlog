@@ -1,5 +1,5 @@
 #### 开启mongodb
-``` mongod --dbpath=d:/Mongodb/data/db ```（对应你的安装目录）<br>
+``` mongod --dbpath=/usr/local/Mongodb/data ```（对应你的安装目录）<br>
 ``` mongo ```（在另一终端开启,操作数据库）
 
 #### 开启node
